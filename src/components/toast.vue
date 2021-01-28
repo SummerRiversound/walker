@@ -3,6 +3,7 @@
         @click="removeToast"
         :timeout="toast.type=='loading'?-1:3000"
         :color="toast.color"
+        elevation="5"
         tile
         v-model="toast.show">
         {{toast.message}}
@@ -13,7 +14,7 @@
 export default {
     computed: {
         toast () {
-            return this.$store.getter.toast
+            return this.$store.getters.toast
         },
     },
     methods:{

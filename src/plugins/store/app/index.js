@@ -7,7 +7,7 @@ const resetToast = {
 
 const app = {
     state: {
-        loading: false,
+        loading: true,
         toast: {
             message: null,
             type: null,

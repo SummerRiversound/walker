@@ -19,7 +19,7 @@ this.$toast.loading(msg)
 // remove toast
 this.$toast.remove()
 ```
-By default, the toast is shown for 3 seconds
+By default, the toast is shown for 3 seconds.
 if you want control this option, see ``src/components/toast.vue`` file in repository
 and change this option.
 ```

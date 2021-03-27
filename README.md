@@ -1,8 +1,8 @@
 # FE project with Vue 2 foundation setting.
 stacks: vue2, vuerouter, axios, vuex, vuetify
 
-``해당 repository는 빠른 프로젝트 세팅을 위해 만들어졌습니다``
-``This repository is for making your project more fast.``
+해당 repository는 빠른 프로젝트 세팅을 위해 만들어졌습니다   
+This repository is for making your project more fast.
 
 ## Usage
 
